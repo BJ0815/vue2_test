@@ -5,6 +5,7 @@
 <script>
 // import { Particle } from './core';
 export default {
+  name:  'BaseSvgCircle',
   props: ['cx', 'cy']
 };
 </script>

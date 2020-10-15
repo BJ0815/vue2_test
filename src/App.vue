@@ -1,20 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Vue2.0"/>
-    <BaseSvgBubble></BaseSvgBubble>
+    <h1>Vue 2.0</h1>
+
+    <TestCase></TestCase>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import BaseSvgBubble from "./components/BaseSvgBubble.vue";
+import TestCase from "./components/TestCase";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    BaseSvgBubble
+    TestCase
   }
 }
 </script>
